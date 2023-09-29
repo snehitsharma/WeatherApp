@@ -1,0 +1,24 @@
+{"coord":{"lon":-96.7836,"lat":32.7668},
+"weather":[{"id":800,"main":"Clear",
+"description":"clear sky","icon":"01n"}],
+"base":"stations",
+"main":
+{"temp":300.4,
+"feels_like":301.8,"temp_min":298.41,
+"temp_max":302.23,
+"pressure":1014,
+"humidity":63},
+
+"visibility":10000,
+"wind":{"speed":3.09,"deg":140},
+"clouds":{"all":0},"dt":1695966456,
+"sys":{"type":2,"id":2075302,
+"country":"US","
+sunrise":1695989980,
+"sunset":1696032915},
+"timezone":-18000,
+"id":4684904,
+"name":"Dallas",
+"cod":200}
+
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=c47b5684af6907cd6d5442acdfd77b73'
